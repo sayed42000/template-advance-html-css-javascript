@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--<meta property="og:title" content="" />-->
+    <!--<meta property="og:url" content="" />-->
+    <!--<meta property="og:image" content="" />-->
+    <!--<meta property="og:site_name" content="" />-->
+    <!--<meta property="og:description" content="" />-->
+    <title>Start Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--[if lt IE 9]>
+            <script src="scripts/html5shiv.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <section class="cover-main" id="home">
+        <header>
+            <nav class="nav-wrapper">
+                <div class="logo">
+                    <a href="#"><img src="images/white-logo.png" alt="logo"></a>
+                </div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">My Work</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Slider</a></li>
+                    <li><a href="#">Footer</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="wrapper">
+        <ul id="scence" 
+        data-invert-x="false" 
+        data-invert-y="false" 
+        data-scalar-x="7" 
+        data-scalar-y="7"
+        data-friction-x="0.1" 
+        data-friction-y="0.1" 
+        data-origin-x="0.5" 
+        data-origin-y="0.5">
+            <li class="layer name" data-depth="0.90">Your name Here</li>
+            <li class="layer title" data-depth="0.50">Your designation here</li>
+            <li class="layer btn btn-main" data-depth="0.30">
+                <a href="#" class="portfolio-btn">View Portfolio</a>
+                <a href="#" class="contact-btn">Contact Me</a>
+            </li>
+        </ul>
+    </div>
+    </section>
+    
+<section class="masonry-grid" id="work">
+        <h2 class="subtitle">My Photography Portfolio</h2>
+        <div class="grid">
+            <div class="grid-item"><img src="images/one.jpg" alt=""></div>
+            <div class="grid-item"><img src="images/two.jpg" alt=""></div>
+            <div class="grid-item tall-img"><img src="images/tall-img-1.jpg" alt=""></div>
+            <div class="grid-item"><img src="images/four.jpg" alt=""></div>
+            <div class="grid-item tall-img"><img src="images/tall-img-2.jpg" alt=""></div>
+            <div class="grid-item"><img src="images/six.jpg" alt=""></div>
+            <div class="grid-item"><img src="images/seven.jpg" alt=""></div>
+            <div class="grid-item"><img src="images/eight.jpg" alt=""></div>
+            <div class="grid-item"><img src="images/nine.jpg" alt=""></div>
+            <div class="grid-item"><img src="images/three.jpg" alt=""></div>
+            <div class="grid-item"><img src="images/ten.jpg" alt=""></div>
+            <div class="grid-item"><img src="images/eleven.jpg" alt=""></div>
+        </div>
+    </section>
+
+    <section class="beating-heart" id="heart">
+        <div class="wrapper">
+            <h2 class="subtitle">About me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, nisi rerum sunt odit error voluptatum inventore vel beatae rem modi quibusdam saepe voluptatibus officiis iste assumenda, cum quo quis corporis!</p>
+            <span>I</span>
+                <svg class="heart" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                 y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                <path style="fill:#D75A4A;" d="M24.85,10.126c2.018-4.783,6.628-8.125,11.99-8.125c7.223,0,12.425,6.179,13.079,13.543
+	            c0,0,0.353,1.828-0.424,5.119c-1.058,4.482-3.545,8.464-6.898,11.503L24.85,48L7.402,32.165c-3.353-3.038-5.84-7.021-6.898-11.503
+	            c-0.777-3.291-0.424-5.119-0.424-5.119C0.734,8.179,5.936,2,13.159,2C18.522,2,22.832,5.343,24.85,10.126z" />
+                </svg>
+            <span>Photography</span>
+        </div>
+    </section>
+
+    <section class="slider-driver" id="slider">
+        <h2 class="subtitle">Slider Photos</h2>
+        <div class="slider">
+           <div class="slide">
+               <img src="images/eleven.jpg" alt="" class="image-responsive">
+           </div>
+           <div class="slide">
+               <img src="images/one.jpg" alt="" class="image-responsive">
+           </div>
+           <div class="slide">
+                <img src="images/two.jpg" alt="" class="image-responsive">
+            </div>
+        <div class="slide">
+            <img src="images/three.jpg" alt="" class="image-responsive">
+        </div>
+        <div class="slide">
+            <img src="images/four.jpg" alt="" class="image-responsive">
+        </div>
+        </div>
+    </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="scripts/parallax.min.js"></script>
+    <script src="scripts/masonry.js"></script>
+    <script src="scripts/slick.min.js"></script>
+    <script src="scripts/js.js"></script>
+    <script>
+        var scence = document.getElementById('scence');
+        var paralox = new Parallax(scence);
+    </script>    
+</body>
+
+</html>
